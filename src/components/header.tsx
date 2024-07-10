@@ -7,7 +7,7 @@ import { Button } from './ui/button';
 
 export default function Header() {
   return (
-    <div className="fixed right-6 top-6 flex items-center space-x-1">
+    <div className="fixed right-6 top-6 flex items-center space-x-1 sm:hidden">
       <Link href="https://github.com/camdzic" target="_blank" rel="noreferrer">
         <Button variant="ghost" size="icon">
           <GitHubLogoIcon className="h-[1.2rem] w-[1.2rem]" />
@@ -24,9 +24,7 @@ export default function Header() {
           <span className="sr-only">Discord</span>
         </Button>
       </Link>
-
       <div className="h-5 w-[6px]" />
-
       <ModeToggle />
     </div>
   );
