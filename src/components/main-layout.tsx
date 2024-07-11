@@ -2,7 +2,11 @@
 
 import { motion } from 'framer-motion';
 
-export default function MainLayout({ children }: { children: React.ReactNode }) {
+export default function MainLayout({
+  children
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <motion.main
       initial={{ y: -25, filter: 'blur(10px)', opacity: 0 }}
