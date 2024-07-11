@@ -35,12 +35,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <Providers
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
+        <Providers attribute="class" defaultTheme="system" enableSystem>
           <Header />
 
           {children}
