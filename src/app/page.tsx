@@ -1,5 +1,5 @@
 import MainLayout from '@/components/main-layout';
-import { Avatar, AvatarImage } from '@/components/ui/avatar';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { skills } from '@/data';
 
@@ -16,7 +16,8 @@ export default function Home() {
           </div>
 
           <Avatar className="h-24 w-24 sm:h-28 sm:w-28">
-            <AvatarImage src="https://avatars.githubusercontent.com/u/111543914" />
+            <AvatarImage src="https://github.com/camdzic.png" alt="@camdzic" />
+            <AvatarFallback className="animate-pulse bg-primary/10"></AvatarFallback>
           </Avatar>
         </div>
       </section>
