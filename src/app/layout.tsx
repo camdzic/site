@@ -35,7 +35,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <Providers attribute="class" defaultTheme="system" enableSystem>
+        <Providers attribute="class">
           <Header />
 
           {children}
