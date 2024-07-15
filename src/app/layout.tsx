@@ -9,8 +9,9 @@ import { Inter as FontSans } from 'next/font/google';
 import { Providers } from './providers';
 
 export const metadata: Metadata = {
-  title: "Hey, I'm Aldin 👋",
-  description: 'Backend Developer'
+  title: 'camdzic.dev',
+  description:
+    'Your favorite full-stack developer. Thank you for visiting my website!'
 };
 
 export const viewport: Viewport = {
