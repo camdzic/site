@@ -12,7 +12,7 @@ export default function MainLayout({
       initial={{ y: -25, filter: 'blur(10px)', opacity: 0 }}
       animate={{ y: 0, filter: 'blur(0)', opacity: 1 }}
       transition={{ duration: 1 }}
-      className="mx-auto flex max-w-2xl flex-col space-y-10 px-6 py-12 sm:py-24"
+      className="mx-auto flex max-w-2xl flex-col space-y-10 p-6"
     >
       {children}
     </motion.main>

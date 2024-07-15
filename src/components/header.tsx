@@ -8,7 +8,7 @@ import { Button } from './ui/button';
 
 export default function Header() {
   return (
-    <div className="fixed right-6 top-6 hidden items-center space-x-1 md:flex">
+    <div className="flex items-center justify-end space-x-1 p-6">
       <Link href={githubURL} target="_blank" rel="noreferrer">
         <Button variant="ghost" size="icon">
           <GitHubLogoIcon className="h-[1.2rem] w-[1.2rem]" />
