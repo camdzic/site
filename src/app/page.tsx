@@ -9,13 +9,13 @@ export default function Home() {
       <section className="flex flex-col">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl">
+            <h1 className="size-24 text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl">
               Hi, I&apos;m Aldin 👋
             </h1>
             <p className="mt-1 md:text-xl">Backend Developer</p>
           </div>
 
-          <Avatar className="h-24 w-24 sm:h-28 sm:w-28">
+          <Avatar className="size-24 sm:size-28">
             <AvatarImage src="https://github.com/camdzic.png" alt="@camdzic" />
             <AvatarFallback className="animate-pulse bg-primary/10"></AvatarFallback>
           </Avatar>

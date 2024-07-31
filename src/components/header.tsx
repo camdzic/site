@@ -11,13 +11,13 @@ export default function Header() {
     <div className="flex items-center justify-end space-x-1 p-6">
       <Link href={githubURL} target="_blank" rel="noreferrer">
         <Button variant="ghost" size="icon">
-          <GitHubLogoIcon className="h-[1.2rem] w-[1.2rem]" />
+          <GitHubLogoIcon className="size-[1.2rem]" />
           <span className="sr-only">GitHub</span>
         </Button>
       </Link>
       <Link href={discordURL} target="_blank" rel="noreferrer">
         <Button variant="ghost" size="icon">
-          <DiscordLogoIcon className="h-[1.2rem] w-[1.2rem]" />
+          <DiscordLogoIcon className="size-[1.2rem]" />
           <span className="sr-only">Discord</span>
         </Button>
       </Link>
