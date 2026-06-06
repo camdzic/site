@@ -1,0 +1,27 @@
+# Bun
+node_modules/
+
+# Build artifacts
+dist/
+/.next/
+/out/
+/build
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# misc
+.DS_Store
+*.pem
+.vercel
+
+# env
+.env*
+
+# IDEs
+.idea/
+.vscode/
+.claude/
+docs/
+CLAUDE.md
